@@ -28,6 +28,7 @@ h1,h2,h3,h4,h5,h6, p {
 .auth-status-message button {
   cursor:pointer;
   margin-left: 1rem;
+  
 }
 .not-found-message {
   display: flex;
@@ -392,6 +393,13 @@ input:focus, textarea:focus {
   margin-bottom: 0.5rem;
   cursor: pointer;
   font-size: 0.75rem;
+}
+
+.logout-btn{
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }
 /* Media Queries */
 
